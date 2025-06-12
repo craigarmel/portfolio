@@ -140,7 +140,7 @@ const Portfolio = () => {
 
       <div className={`relative z-10 w-full max-w-7xl mx-auto px-6 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         {/* Layout Mobile - Colonne */}
-        <div className="flex flex-col items-center text-center md:hidden">
+        <div className="relative top-25 flex-col items-center text-center md:hidden">
         {/* Photo Mobile */}
         <div className="mb-8">
           <div className="relative group">
